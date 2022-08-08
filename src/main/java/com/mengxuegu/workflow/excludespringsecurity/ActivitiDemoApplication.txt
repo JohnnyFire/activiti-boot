@@ -1,0 +1,16 @@
+package com.sky.demo.activitidemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author fjl
+ */
+@SpringBootApplication(exclude = {org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class})
+public class ActivitiDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ActivitiDemoApplication.class, args);
+	}
+
+}
